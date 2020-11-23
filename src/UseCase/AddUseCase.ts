@@ -9,7 +9,6 @@ export interface Response {
     useCase: Entity;
 }
 
-
 class AddResponse implements Response {
     readonly useCase: Entity;
 

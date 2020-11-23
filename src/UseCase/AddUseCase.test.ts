@@ -8,7 +8,7 @@ describe(AddUseCase, function () {
         const gateway: Gateway = {create: useCaseCreate};
         const add = new AddUseCase(gateway);
         const request: Request = {name: 'MyUseCase'};
-        const entity: Entity = {name: ''};
+        const entity: Entity = {id: '', name: ''};
 
         useCaseCreate.mockReturnValueOnce(entity);
 
