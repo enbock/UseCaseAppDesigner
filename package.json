@@ -14,5 +14,11 @@
     "test": "jest"
   },
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "collectCoverage": true,
+    "verbose": true
+  }
 }
